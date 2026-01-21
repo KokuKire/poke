@@ -1,0 +1,10 @@
+body {
+  font-family: sans-serif;
+  max-width: 600px;
+  margin: auto;
+}
+
+select, button {
+  padding: 5px;
+  margin: 5px 0;
+}

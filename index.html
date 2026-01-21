@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>ポケモン簡易ダメージ計算</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>ポケモン簡易ダメージ計算</h1>
+
+  <div>
+    <h2>攻撃側</h2>
+    <select id="attacker"></select>
+  </div>
+
+  <div>
+    <h2>防御側</h2>
+    <select id="defender"></select>
+  </div>
+
+  <div>
+    <h2>技</h2>
+    <select id="move">
+      <option value="40">でんきショック（40）</option>
+      <option value="90">10まんボルト（90）</option>
+    </select>
+  </div>
+
+  <button onclick="calculate()">計算する</button>
+
+  <h2>結果</h2>
+  <div id="result"></div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

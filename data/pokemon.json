@@ -1,0 +1,23 @@
+{
+  "pikachu": {
+    "name": "ピカチュウ",
+    "type": ["electric"],
+    "attack": 55,
+    "defense": 40,
+    "hp": 35
+  },
+  "bulbasaur": {
+    "name": "フシギダネ",
+    "type": ["grass", "poison"],
+    "attack": 49,
+    "defense": 49,
+    "hp": 45
+  },
+  "charmander": {
+    "name": "ヒトカゲ",
+    "type": ["fire"],
+    "attack": 52,
+    "defense": 43,
+    "hp": 39
+  }
+}
