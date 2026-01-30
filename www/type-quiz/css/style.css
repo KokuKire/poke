@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  width: 50px;
+}
+
+th {
+  background-color: #f0f0f0;
+}
+
+.super-effective {
+  background-color: #9f8;
+}
+
+.not-very-effective {
+  background-color: #f99;
+}
+
+.normal {
+  background-color: #fff;
+}
